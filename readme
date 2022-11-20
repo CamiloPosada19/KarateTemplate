@@ -1,3 +1,0 @@
-# Lanzar todos los test --> mvn test
-# Lanzar test con el propio runner --> mvn test -Dtest=AdvanceRunner
-# Lanzar test por etiquetas --> mvn test "-Dkarate.options=--tags @camilo"
