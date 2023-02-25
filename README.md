@@ -12,3 +12,7 @@
 ###  Lanzar por etiquetas y entornos
 
 ** mvn test "-Dkarate.options=--tags @camilo" -DKarate.env="dev"**
+
+###  Lanzar por test de performance con gatling
+
+**mvn clean test-compile gatling:test**
