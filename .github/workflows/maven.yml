@@ -25,6 +25,10 @@ jobs:
          cd myproject
          ls
          mvn clean test
+     - name: Report
+       uses: deblockt/cucumber-report-annotations-actions@v1.7
+       
+     
 
 
     
