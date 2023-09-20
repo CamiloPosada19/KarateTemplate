@@ -25,8 +25,16 @@ jobs:
          cd myproject
          ls
          mvn clean test
-     - name: Report
-       uses: deblockt/cucumber-report-annotations-actions@v1.7
+     - name: Karate DSL test reports
+       uses: actions/upload-artifact@v2
+       if: ${{ always() }}
+       with: 
+         name: Test reports
+         path: |
+           ./target/karate-reports/
+           ./target/karate.log
+         
+         
        
      
 
