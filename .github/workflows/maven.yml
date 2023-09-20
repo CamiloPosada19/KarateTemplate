@@ -24,7 +24,7 @@ jobs:
        run: |
          cd myproject
          ls
-         mvn clean test "-Dkarate.options=--tags @debug
+         mvn clean test "-Dkarate.options=--tags @debug"
      #- name: Karate DSL test reports
      #  uses: actions/upload-artifact@v2
      #  if: ${{ always() }}
