@@ -32,7 +32,7 @@ jobs:
          name: Test reports
          path: 
            ///home/runner/work/KarateTemplate/KarateTemplate/myproject/target/karate-reports/
-            ///home/runner/work/KarateTemplate/KarateTemplate/myproject/target/karate.log
+           #///home/runner/work/KarateTemplate/KarateTemplate/myproject/target/karate.log
          
          
        
