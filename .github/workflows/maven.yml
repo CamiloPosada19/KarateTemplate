@@ -26,15 +26,12 @@ jobs:
          ls
          mvn clean test "-Dkarate.options=--tags @debug"
      - name: Karate DSL test reports
-       run: |
-         pwd
-         ls
-       #uses: actions/upload-artifact@v2
-       #if: ${{ always() }}
-       #with: 
-       #  name: Test reports
-       #  path: |
-       #   ./target/karate-reports
+       uses: actions/upload-artifact@v2
+       if: ${{ always() }}
+       with: 
+         name: Test reports
+         path: 
+           ///home/runner/work/KarateTemplate/KarateTemplate/myproject/target/karate-reports/karate-summary.html
          
          
        
