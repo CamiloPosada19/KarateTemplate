@@ -31,7 +31,8 @@ jobs:
        with: 
          name: Test reports
          path: 
-           ///home/runner/work/KarateTemplate/KarateTemplate/myproject/target/karate-reports/karate-summary.html
+           ///home/runner/work/KarateTemplate/KarateTemplate/myproject/target/karate-reports/
+            ///home/runner/work/KarateTemplate/KarateTemplate/myproject/target/karate.log
          
          
        
