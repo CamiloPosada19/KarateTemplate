@@ -12,6 +12,6 @@ jobs:
       uses: actions/checkout@v2.0.0
 
     - name: View repository
-      run: ls && cd myproject
+      run: ls && cd myproject && ls
 
     
